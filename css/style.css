@@ -8,15 +8,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: sticky; */
   top: 0px;
   background-color: #1b1f23;
   height: 58px;
 }
 
 .nav-list {
-  /* width: 70%; */
-  /* background-color: black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,15 +32,11 @@
 }
 
 .nav-list li a:hover {
-  /* background-color: lightsalmon; */
-  color: darkgreen;
+  color: teal;
 }
 .searchnav {
   display: flex;
-  /* background-color: blueviolet; */
-  /* width: 30%; */
   align-items: right;
-  /* justify-content: right; */
 }
 
 #search {
@@ -59,20 +52,11 @@
   background: none;
   color: white;
   cursor: pointer;
-  background-color: black;
+  background-color: teal;
   padding: 8px;
   height: 38px;
 }
 
-.sec {
-  /* height: 370px; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  max-width: 1291px;
-  font-family: "Ubuntu", sans-serif;
-}
 
 * {
   box-sizing: border-box;
@@ -80,10 +64,8 @@
 
 /* Slideshow container */
 .slideshow-container {
-  /* max-width: 1265px; */
   position: relative;
   margin: auto;
-  /* max-height: 400px; */
   background-size: cover;
 }
 
@@ -119,22 +101,21 @@
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a teal background color */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: teal;
 }
 
 /* Caption text */
 .sl-one {
   color: #f2f2f2;
   font-size: 35px;
-  /* padding: 8px 12px; */
   position: absolute;
   top: 170px;
   left: 90px;
-  /* width: 100%; */
   text-align: left;
+  font-family: cursive;
 }
 
 .sl-two {
@@ -143,20 +124,10 @@
   position: absolute;
   top: 210px;
   left: 90px;
-  /* width: 100%; */
   text-align: left;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: cursive;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -200,64 +171,13 @@
     opacity: 1;
   }
 }
-/* 
 
-.background {
-  background: rgba(0, 0, 0, 0.2) url("../images/mockup-2443050_1920.jpg");
-  background-size: cover;
-  width: 100%;
-  background-blend-mode: darken;
-  height: 520px;
-}
-
-.box-main {
-  display: flex;
-  align-items: center;
- 
-  color: seashell;
-  font-family: "Ubuntu", sans-serif;
-  max-width: 80%;
-  margin: auto;
-  height: 95%;
-  text-align: left;
-  
-} */
-
-.text-main {
-  font-size: 30px;
-  text-align: left;
-  font-style: normal;
-  font-size: 40px;
-  letter-spacing: 0.02em;
-  line-height: 1em;
-  color: white;
-  position: absolute;
-  top: 240px;
-  left: 770px;
-}
-
-.text-content {
-  font-size: 14px;
-  text-align: left;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 14px;
-  color: white;
-  letter-spacing: 0.02em;
-  line-height: 1.7em;
-  text-transform: inherit;
-  position: absolute;
-  top: 330px;
-  left: 770px;
-}
 
 .ab {
   display: flex;
   padding: 0px 40px 100px 40px;
   justify-content: center;
   align-items: center;
-
-  /* width: 80%; */
 }
 .abt {
   background-color: white;
@@ -266,7 +186,6 @@
 .ab-content,
 .con-content {
   text-align: left;
-  /* width: 185%; */
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -274,20 +193,18 @@
   line-height: 1.7em;
   text-transform: inherit;
   color: rgb(14, 13, 13);
-  /* background-color: rgb(12, 12, 37); */
 }
 
 .ab-head {
-  font-family: adobe-garamond-pro;
-
-  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+   font-weight: 400;
   font-style: normal;
   font-size: 40px;
   letter-spacing: 0.02em;
   line-height: 1.5em;
   text-transform: none;
   padding: 70px 40px 15px 40px;
-  /* background-color: rgb(12, 12, 37); */
+  
 }
 
 .ab-img {
@@ -297,7 +214,7 @@
 }
 
 .con-head {
-  font-family: adobe-garamond-pro;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
@@ -307,8 +224,7 @@
   padding: 20px;
   text-align: left;
   position: relative;
-  top: 15px;
-  left: 70px;
+  left: 100px; 
 }
 
 .container {
@@ -336,14 +252,14 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-  width: 160%; /* Full width */
-  padding: 12px; /* Some padding */
+  width: 160%; 
+  padding: 12px; 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  
   text-align: center;
   background-color: whitesmoke;
   color: black;
@@ -353,7 +269,7 @@ textarea {
 input[type="submit"],
 input[type="reset"],
 input[type="search"] {
-  background-color: rgba(206, 51, 51, 0.8);
+  background-color: teal;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -362,24 +278,23 @@ input[type="search"] {
   text-align: center;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, show button in red colour */
 input[type="submit"]:hover {
-  background-color: teal;
+  background-color: rgba(206, 51, 51, 0.8);
 }
 
 input[type="reset"]:hover {
-  background-color: teal;
+  background-color: rgba(206, 51, 51, 0.8);
 }
 
 .ft {
-  /* height: 220px; */
-  background-color: black;
+  background-color: #1b1f23;
   color: white;
   padding: 30px;
 }
 .copyright {
   text-align: center;
-  background-color: black;
+  background-color: #1b1f23;
   color: white;
 }
 .ft-fol {
@@ -388,20 +303,26 @@ input[type="reset"]:hover {
   color: white;
 }
 .fol-col {
-  /* display: flex;
-  flex-direction: row;  */
   text-align: center;
   color: black;
 }
 
-.github {
+.github img{
   cursor: pointer;
+}
+.github{
+ 
   color: white;
 }
 
 .linkedin {
-  cursor: pointer;
+  
   color: white;
+}
+
+.linkedin img{
+  cursor: pointer;
+ 
 }
 
 .burger{
@@ -419,72 +340,3 @@ input[type="reset"]:hover {
 }
 
 
-@media only screen and (max-width: 1115px) {
-  .nav-list {
-    flex-direction: column;
-  }
-  .navbar {
-    flex-direction: column;
-    transition: all 0.7s ease-out;
-    height: 450px;
-  }
-  .box-main {
-    flex-direction: column-reverse;
-    width: 100%;
-  }
-  .burger {
-    display: block;
-    color: white;
-  }
-  .height-nav-resp {
-    height: 65px;
-  }
-  .v-class-resp {
-    opacity: 0;
-    
-  }
-  .searchnav{
-      justify-content: center;
-
-  }
-  input[type="text"],
-input[type="email"],
-select,
-textarea {
-  width: 220%; 
-  
-}
-
-.ab{
-  flex-direction: column-reverse;
-}
-.cont{
-  flex-direction: column;
-}
-.linkedin img{
-  width: 7%;
-}
-.github img{
-  width: 7%;
-}
-.sl-one{
-  position: absolute;
-  text-align: center;
-  top: 160px;
-  left: 100px;
-}
-.sl-two{
-  position: absolute;
-  text-align: center;
-  top: 230px;
-  left: 40px;
-  right: 40px;
-}
-.sl-three{
-  position: absolute;
-  top: 350px;
-}
-.mySlides img {
-  height: 68vh;
-}
-}

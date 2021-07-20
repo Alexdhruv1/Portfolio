@@ -1,0 +1,74 @@
+
+@media only screen and (max-width: 1115px) {
+    .nav-list {
+      flex-direction: column;
+    }
+    .navbar {
+      flex-direction: column;
+      transition: all 0.7s ease-out;
+      height: 450px;
+    }
+    .box-main {
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+    .burger {
+      display: block;
+      color: white;
+    }
+    .height-nav-resp {
+      height: 65px;
+    }
+    .v-class-resp {
+      opacity: 0;
+      
+    }
+    .searchnav{
+        justify-content: center;
+  
+    }
+    input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 200%; 
+  }
+  
+  .ab{
+    flex-direction: column-reverse;
+  }
+  .cont{
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+  }
+  .con-head{
+    left: 20px;
+  }
+  .linkedin img{
+    width: 7%;
+  }
+  .github img{
+    width: 7%;
+  }
+  .sl-one{
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    left: 100px;
+  }
+  .sl-two{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 40px;
+    right: 40px;
+  }
+  .sl-three{
+    position: absolute;
+    top: 350px;
+  }
+  .mySlides img {
+    height: 68vh;
+  }
+  }
